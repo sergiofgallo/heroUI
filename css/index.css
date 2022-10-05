@@ -39,7 +39,7 @@ h3{
 .wrapper {
   max-inline-size: 1664px;
   margin: auto;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* overflow: hidden; */
 }
 p, h1 {
@@ -84,6 +84,7 @@ button {
 
 .card {
   max-inline-size: 412px;
+  margin-left: 83px;
   color: var(--white);
   z-index: 2;
 }
@@ -103,7 +104,7 @@ button {
   background-color: var(--black-1);
   background-image: url('../images/img.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 128px), 0 100%);
 }
